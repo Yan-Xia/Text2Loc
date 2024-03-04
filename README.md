@@ -1,5 +1,5 @@
 # Text2Loc
-This repository is the official implementation of our CVPR 2024 paper:
+This repository is the official implementation of our CVPR 2024 paper: 
 
 [Text2Loc: 3D Point Cloud Localization from Natural Language](https://arxiv.org/abs/2311.15977)
 
