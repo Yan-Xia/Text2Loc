@@ -3,6 +3,8 @@ This repository is the official implementation of our CVPR 2024 paper:
 
 [Text2Loc: 3D Point Cloud Localization from Natural Language](https://arxiv.org/abs/2311.15977)
 
+The project page is [here](https://yan-xia.github.io/projects/text2loc/).
+
 ## Introduction
 We focus on the relatively-understudied problem of point cloud localization from textual descriptions, to address the “last mile problem.” We introduce Text2Loc, a solution designed for city-scale position localization using textual descriptions. When provided with a point cloud representing the surroundings and a textual query describing a position, Text2Loc determines the most probable location of that described position within the map. The proposed Text2Loc achieves consistently better performance across all top retrieval numbers. Notably, it outperforms the best baseline by up to 2 times, localizing text queries below 5 m.
 
@@ -21,7 +23,7 @@ We focus on the relatively-understudied problem of point cloud localization from
 
 ## To do list
 
-- [ ] Release project page and demo
+- [x] Release project page and demo
 - [ ] Release camera-ready paper
 - [ ] Release code
 
