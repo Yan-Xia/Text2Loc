@@ -24,7 +24,7 @@ We focus on the relatively-understudied problem of point cloud localization from
 ## To do list
 
 - [x] Release project page and demo
-- [ ] Release camera-ready paper
+- [x] Release camera-ready paper
 - [ ] Release code
 
 
