@@ -27,19 +27,23 @@ CC=/usr/bin/gcc-9 pip install -r requirements.txt
 
 ## Datasets & Backbone
 
-The KITTI360Pose can be accessed [HERE](https://vision.in.tum.de/webshare/g/text2pose/)  
+The KITTI360Pose dataset is used in our implementation.
+
 For training and evaluation, we need cells and poses from Kitti360Pose dataset.
 The cells and poses folder can be downlowded from [HERE](https://cvg.cit.tum.de/webshare/g/text2pose/KITTI360Pose/k360_30-10_scG_pd10_pc4_spY_all/)  
+
 In addtion, to successfully implement prototype-based map cloning, we need to know the neighbors of each cell. We use direction folder to store the adjacent cells in different directions. 
 The direction folder can be downloaded from [HERE](https://drive.google.com/drive/folders/15nsTfN7oQ2uctghRIWo0UgVmJUURzNUZ?usp=sharing)  
 
-If you want to train the model, you need to download the pretrained object backbone by the following script:
+If you want to train the model, you need to download the pretrained object backbone [HERE](https://drive.google.com/file/d/1j2q67tfpVfIbJtC1gOWm7j8zNGhw5J9R/view?usp=drive_link):
 
-```bash
+The KITTI360Pose and the pretrained object backbone is provided by Text2Pos ([paper](https://arxiv.org/abs/2203.15125), [code](https://github.com/mako443/Text2Pos-CVPR2022))
+
+<!-- ```bash
 mkdir checkpoints/k360_30-10_scG_pd10_pc4_spY_all/
 wget https://cvg.cit.tum.de/webshare/g/text2pose/pretrained_models/pointnet_acc0.86_lr1_p256.pth
 mv pointnet_acc0.86_lr1_p256.pth checkpoints/
-```
+``` -->
 
 The final directory structure should be:
 ```
