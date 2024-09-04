@@ -30,7 +30,7 @@ CC=/usr/bin/gcc-9 pip install -r requirements.txt
 The KITTI360Pose dataset is used in our implementation.
 
 For training and evaluation, we need cells and poses from Kitti360Pose dataset.
-The cells and poses folder can be downlowded from [HERE](https://cvg.cit.tum.de/webshare/g/text2pose/KITTI360Pose/k360_30-10_scG_pd10_pc4_spY_all/)  
+The cells and poses folder can be downlowded from [HERE](https://drive.google.com/file/d/1JT6WALzntau7y_JwYdv5IKJRVPeGzaT0/view?usp=sharing)  
 
 In addtion, to successfully implement prototype-based map cloning, we need to know the neighbors of each cell. We use direction folder to store the adjacent cells in different directions. 
 The direction folder can be downloaded from [HERE](https://drive.google.com/drive/folders/15nsTfN7oQ2uctghRIWo0UgVmJUURzNUZ?usp=sharing)  
