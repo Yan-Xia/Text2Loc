@@ -33,7 +33,7 @@ For training and evaluation, we need cells and poses from Kitti360Pose dataset.
 The cells and poses folder can be downlowded from [HERE](https://drive.google.com/file/d/1JT6WALzntau7y_JwYdv5IKJRVPeGzaT0/view?usp=sharing)  
 
 In addtion, to successfully implement prototype-based map cloning, we need to know the neighbors of each cell. We use direction folder to store the adjacent cells in different directions. 
-The direction folder can be downloaded from [HERE](https://drive.google.com/drive/folders/15nsTfN7oQ2uctghRIWo0UgVmJUURzNUZ?usp=sharing)  
+The direction folder can be downloaded from [HERE](https://drive.google.com/drive/folders/1brf_RCs168Wxa16clYUBVovFj_5zlsiq?usp=sharing)  
 
 If you want to train the model, you need to download the pretrained object backbone [HERE](https://drive.google.com/file/d/1j2q67tfpVfIbJtC1gOWm7j8zNGhw5J9R/view?usp=drive_link):
 
