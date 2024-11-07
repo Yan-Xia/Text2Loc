@@ -81,7 +81,7 @@ To run the evaluation, save them under
 ## Train
 After setting up the dependencies and dataset, our models can be trained using the following commands:
 
-### Train Global Place Recognition (Coarse)
+### Train Global Place Recognition
 
 ```bash
 python -m training.coarse --batch_size 64 --coarse_embed_dim 256 --shuffle --base_path ./data/k360_30-10_scG_pd10_pc4_spY_all/   \
