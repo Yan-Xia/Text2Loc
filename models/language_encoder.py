@@ -88,7 +88,7 @@ class LanguageEncoder(torch.nn.Module):
         if fixed_embedding:
             self.fixed_embedding = True
             for para in self.llm_model.parameters():
-                # as we detach in the forward, the old incorrect version do not influence the result
+                # As we detach in the forward, the old incorrect version do not influence the result.
                 para.requires_grad = False 
         else:
             self.fixed_embedding = False
